@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gabarito';
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s1 > img {
+    width: 200px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.navbar__s2 ul {
+    display: flex;
+    column-gap: 35px;
+}
+
+.navbar__s2>ul>li>p {
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar__s3 {
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+.navbar__s3__inr {
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+
+}
+
+.navbar_s3>a>h5 {
+    text-align: center;
+    background-color: black;
+    color-scheme: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.navbar__s4 {
+    display: block;
+}
+
+.banner-container {
+    text-align: center;
+    padding: 0;
+}
+
+.banner-nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.banner-search {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+
+.banner-search__nav {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgb(185, 185, 185);
+    background-color: #f2f2f2;
+    box-shadow: 4px 4px 10px rgb(177, 177, 177);
+    padding: 10px 15px;
+    width: 45%;
+}
+
+.banner-search__nav input {
+    border: none;
+    background: transparent;
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.banner-search__nav input:focus {
+    outline: none;
+}
+
+.banner-search__nav button {
+    background-color: rgb(36, 255, 36);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.banner-img img {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 515px;
+    border-radius: 15px;
+}
+
+.banner-img__offer {
+    width: 35%;
+    border: transparent;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 140%;
+    left: 12%;
+    text-align: left;
+}
+
+.banner-img__offer button {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+/* -------- recommended section ------ */
+
+.recommended{
+    margin: 20px;
+    border: 20px;
+    padding: 10px;
+}
+
+.recommended h1{
+    margin-bottom: 10px;
+}
+
+.recommended p{
+    margin-bottom: 25px;
+}
+
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-card{
+    position: relative;
+    gap: 10px;
+}
+
+.recommended-card img{
+    border-radius: 10px;
+    filter: brightness(50%);
+    margin: 10px;
+}
+
+.recommended-card img:hover {
+    filter: brightness(100%);
+}
+
+.recommended-card h2{
+    color: white;
+    padding:10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.popular{
+    margin: 20px;
+    border: 20px;
+    padding: 10px;
+}
+.popular__s1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.popular__container{
+    margin: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-card img{
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.popular-card p{
+   width: 300px;
+   text-align: center;
+   align-items: center;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   flex-grow: 2;
+   flex-basis: 20%;
+   padding-top:15px;
+}
+.popular-card p{
+    text-align: center;
+    justify-content: center;
+    
+}
+.coimbatore{
+    margin: 20px;
+    border: 20px;
+    padding: 10px;
+
+}
+.coimbatore__s1{
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 10px;
+    
+}
+.coimbatore__s1__img{
+    flex-grow: 1;
+    position: relative
+    flex-basis: 20%; 
+    padding: 10px;
+}
+.coimbatore__s1__img img{
+    border-radius: 10px;
+}
+.coimbatore__s1__img h3,p{
+    width: 90%;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box{
+    margin-top: 20px;
+}
+.heart{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+
+
+}
+
+.footer{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #F2f2f2;
+
+
+}
+.footer_1{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container{
+    display: flex;
+    gap:20px;
+}
+.Footer{
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__s3{
+    display: flex;
+
+    gap: 10px;
+    align-items: center;
+}
+
+.footer_s3_one img{
+    width: 50px;
+
+}
+.footer_s4{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+
+@media screen and (max-width:800px)
+{
+    body{
+        font-size: 10px;
+
+
+    }
+    .nav__options{
+        display: none;
+    }
+    .beng_s1_img{
+        flex-basis: 20%;
+    }
+    .footer{
+        padding:10px;
+
+    }
+    .search{
+        position: sticky;
+        top:40px;
+
+    }
+    .search__input{
+        width: 50%;
+    }
+    .search__s2 button{
+        width: 60px;
+        height: 40px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .nav__options{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .search{
+        position: sticky;
+        top:60px;
+
+
+    }
+    .search__input{
+        width: 70%;
+        height: 30px;
+
+    }
+    .search__s2 button{
+        width: 60px;
+        height: 40px;
+    }
+    .beng_s1_img{
+        flex-basis: 38%;
+    }
+    .box__2 h1{
+        font-size: 10px;
+    }
+
+    .footer_s4{
+        gap: 10px;
+
+    }
+    .footer{
+        padding: 10px;
+    }
+
+
+
